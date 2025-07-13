@@ -18,16 +18,16 @@
     <header>
         <div class="logo">
             <i class="fas fa-code"></i>
-            J<span>a</span>son
+            Jason
         </div>
         <nav>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
-            <a href="#" class="contact-btn">
+            <a href="#contact" class="contact-btn">
                 <i class="fas fa-envelope"></i>
                 Contact me
             </a>
@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-text">
             <p class="intro">Hello there!</p>
             <h1>I'm <span class="highlight">Jason</span>,<br>
@@ -49,20 +49,20 @@
             <p class="subtext">Passionate about creating innovative digital solutions that drive growth and enhance user
                 experiences through modern web technologies.</p>
             <div class="buttons">
-                <a href="#" class="btn primary">
+                <a href="#contact" class="btn primary">
                     <i class="fas fa-briefcase"></i>
                     Hire Me
                 </a>
-                <a href="#" class="btn secondary">
+                <a href="https://wa.me/+1234567890" class="btn secondary" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                     WhatsApp
                 </a>
             </div>
             <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="https://github.com/jrey21" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/jrey21" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/jrey21" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://dribbble.com/jrey21" target="_blank"><i class="fab fa-dribbble"></i></a>
             </div>
         </div>
 
@@ -82,6 +82,568 @@
                         <i class="fas fa-server"></i>
                         Full Stack
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <p>I offer a comprehensive range of digital services to help bring your ideas to life</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies like React, Node.js, and
+                        MongoDB.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Performance Optimization</li>
+                        <li>SEO Friendly</li>
+                        <li>Cross-browser Compatible</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and visually appealing user interfaces that provide exceptional user
+                        experiences.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>Design Systems</li>
+                        <li>Usability Testing</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Sketch</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic digital marketing solutions to grow your online presence and reach your target
+                        audience.</p>
+                    <ul class="service-features">
+                        <li>SEO Optimization</li>
+                        <li>Social Media Marketing</li>
+                        <li>Content Strategy</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span>Google Analytics</span>
+                        <span>SEMrush</span>
+                        <span>HubSpot</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope-open"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Engaging email campaigns that convert subscribers into customers and build lasting relationships.
+                    </p>
+                    <ul class="service-features">
+                        <li>Campaign Design</li>
+                        <li>Automation Setup</li>
+                        <li>A/B Testing</li>
+                        <li>Performance Tracking</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span>Mailchimp</span>
+                        <span>ConvertKit</span>
+                        <span>Klaviyo</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile applications that provide seamless user experiences across
+                        devices.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Apps</li>
+                        <li>React Native</li>
+                        <li>App Store Optimization</li>
+                        <li>Push Notifications</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span>React Native</span>
+                        <span>Flutter</span>
+                        <span>Swift</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and deployment solutions to ensure your applications run smoothly.
+                    </p>
+                    <ul class="service-features">
+                        <li>AWS & Azure</li>
+                        <li>DevOps & CI/CD</li>
+                        <li>Database Management</li>
+                        <li>Security & Monitoring</li>
+                    </ul>
+                    <div class="service-tech">
+                        <span>AWS</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2>About Me</h2>
+                        <p>Passionate developer with 5+ years of experience creating digital solutions</p>
+                    </div>
+                    <div class="about-description">
+                        <p>Hi! I'm Jason, a Full Stack Developer and UI/UX Designer based in San Francisco. I specialize
+                            in creating modern, user-friendly web applications and digital experiences that help
+                            businesses grow and succeed.</p>
+
+                        <p>My journey in tech started 5 years ago when I discovered my passion for solving complex
+                            problems through code. Since then, I've worked with startups and established companies,
+                            helping them build everything from simple landing pages to complex web applications.</p>
+
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                            projects, or sharing my knowledge through blog posts and mentoring.</p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support</div>
+                        </div>
+                    </div>
+
+                    <div class="about-actions">
+                        <a href="#contact" class="btn primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Get In Touch
+                        </a>
+                        <a href="assets/resume.pdf" class="btn secondary" download>
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assets/profile.jpg" alt="Jason - About Me">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h4>Let's Work Together</h4>
+                                <p>Ready to bring your ideas to life?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h3>Skills & Technologies</h3>
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h4>Frontend</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Sass</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Backend</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">GraphQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Tools & Others</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Adobe Creative Suite</span>
+                            <span class="skill-tag">Agile</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>A showcase of my recent work and creative solutions</p>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with real-time inventory management, secure payments, and
+                            admin dashboard.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="Banking App Design">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX Design</div>
+                        <h3>Banking App Design</h3>
+                        <p>Modern and intuitive mobile banking app design with focus on security and user experience.
+                        </p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                            <span>User Research</span>
+                            <span>Design System</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Fitness Tracking App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Mobile App</div>
+                        <h3>Fitness Tracking App</h3>
+                        <p>Cross-platform mobile app for tracking workouts, nutrition, and health metrics with social
+                            features.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                            <span>Charts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/project4.jpg" alt="Task Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3>Task Management System</h3>
+                        <p>Collaborative task management platform with real-time updates, team collaboration, and
+                            analytics.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                            <span>WebSocket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="assets/project5.jpg" alt="Restaurant Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">UI/UX Design</div>
+                        <h3>Restaurant Website</h3>
+                        <p>Elegant restaurant website design with online reservation system and interactive menu.</p>
+                        <div class="project-tech">
+                            <span>Adobe XD</span>
+                            <span>Animation</span>
+                            <span>Responsive</span>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/project6.jpg" alt="Learning Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Web Development</div>
+                        <h3>Learning Management System</h3>
+                        <p>Comprehensive LMS with course creation, student progress tracking, and interactive
+                            assessments.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Django</span>
+                            <span>AWS</span>
+                            <span>Video Streaming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <p>Interested in seeing more of my work?</p>
+                <a href="https://github.com/jrey21" class="btn primary" target="_blank">
+                    <i class="fab fa-github"></i>
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Work Together</h2>
+                <p>Ready to bring your ideas to life? Let's discuss your project and create something amazing.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>San Francisco, CA<br>United States</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>hello@jasondev.com<br>jason@portfolio.dev</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567<br>Available 9AM - 6PM PST</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours<br>Usually within 2-4 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/jrey21" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/jrey21" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/jrey21" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://dribbble.com/jrey21" target="_blank"><i class="fab fa-dribbble"></i></a>
+                            <a href="https://instagram.com/jrey21" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                                <option value="mobile-development">Mobile Development</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="over-50k">Over $50,000</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell me about your project, goals, timeline, and any specific requirements..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Message</span>
+                            <div class="loading-spinner"></div>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -167,6 +729,104 @@
                     });
                 }
             });
+        });
+
+        // Project filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                        card.style.opacity = '0';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                        }, 100);
+                    } else {
+                        card.style.opacity = '0';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Contact form handling
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = contactForm.querySelector('.submit-btn');
+
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Show loading state
+            submitBtn.classList.add('loading');
+            submitBtn.disabled = true;
+
+            // Simulate form submission (replace with actual form handling)
+            setTimeout(() => {
+                // Reset form
+                contactForm.reset();
+
+                // Remove loading state
+                submitBtn.classList.remove('loading');
+                submitBtn.disabled = false;
+
+                // Show success message
+                alert('Thank you for your message! I\'ll get back to you soon.');
+            }, 2000);
+        });
+
+        // Navigation highlighting based on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        function updateActiveNav() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveNav);
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animation
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
         });
     </script>
 
