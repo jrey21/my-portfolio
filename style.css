@@ -163,7 +163,7 @@ nav ul li a.active::after {
 
 .hero-text {
     flex: 1;
-    max-width: 600px;
+    max-width: 700px;
     animation: slideInLeft 0.8s ease-out;
 }
 

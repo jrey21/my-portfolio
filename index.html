@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -17,7 +18,7 @@
     <header>
         <div class="logo">
             <i class="fas fa-code"></i>
-            J<span>A</span>SON
+            J<span>a</span>son
         </div>
         <nav>
             <ul>
@@ -38,14 +39,15 @@
 
     <section class="hero">
         <div class="hero-text">
-            <p class="intro">👋 Hello World!</p>
+            <p class="intro">Hello there!</p>
             <h1>I'm <span class="highlight">Jason</span>,<br>
                 <span class="typing-container">
                     <span class="typing-text"></span>
                     <span class="cursor">|</span>
                 </span>
             </h1>
-            <p class="subtext">Passionate about creating innovative digital solutions that drive growth and enhance user experiences through modern web technologies.</p>
+            <p class="subtext">Passionate about creating innovative digital solutions that drive growth and enhance user
+                experiences through modern web technologies.</p>
             <div class="buttons">
                 <a href="#" class="btn primary">
                     <i class="fas fa-briefcase"></i>
@@ -114,7 +116,7 @@
 
         function typeWriter() {
             const currentWord = words[wordIndex];
-            
+
             if (isDeleting) {
                 typingText.textContent = currentWord.substring(0, charIndex - 1);
                 charIndex--;
@@ -142,7 +144,7 @@
         }
 
         // Start typing animation
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             typeWriter();
         });
 
@@ -150,7 +152,7 @@
         const mobileToggle = document.querySelector('.mobile-menu-toggle');
         const nav = document.querySelector('nav');
 
-        mobileToggle.addEventListener('click', function() {
+        mobileToggle.addEventListener('click', function () {
             nav.classList.toggle('active');
         });
 
