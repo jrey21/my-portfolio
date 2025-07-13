@@ -8,6 +8,9 @@
 body {
     background: #fff;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -61,6 +64,7 @@ nav ul a:hover,
     align-items: center;
     padding: 5% 10%;
     gap: 2rem;
+    flex: 1;
 }
 
 .hero-text {
@@ -152,4 +156,5 @@ nav ul a:hover,
     color: white;
     font-weight: 500;
     flex-wrap: wrap;
+    margin-top: auto;
 }
