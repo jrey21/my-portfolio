@@ -1697,4 +1697,28 @@ nav ul li a.active::after {
     .contact-form-wrapper h3 {
         font-size: 1.5rem;
     }
+
+    /* Center align all contact text elements in mobile */
+    .contact-intro h3 {
+        text-align: center;
+    }
+
+    .contact-intro p {
+        text-align: center;
+    }
+
+    .contact-details h4,
+    .contact-details p,
+    .contact-note {
+        text-align: center;
+    }
+
+    .contact-social h4 {
+        text-align: center;
+    }
+
+    .contact-form-wrapper h3,
+    .form-description {
+        text-align: center;
+    }
 }
