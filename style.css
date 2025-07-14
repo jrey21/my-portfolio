@@ -1711,6 +1711,7 @@ nav ul li a.active::after {
     .contact-details p,
     .contact-note {
         text-align: center;
+        background-color: red;
     }
 
     .contact-social h4 {
