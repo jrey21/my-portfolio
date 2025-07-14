@@ -1358,6 +1358,20 @@ nav ul li a.active::after {
     margin-bottom: 0.3rem;
 }
 
+.form-group label::after {
+    content: '';
+}
+
+.form-group label[for="firstName"]::after,
+.form-group label[for="lastName"]::after,
+.form-group label[for="email"]::after,
+.form-group label[for="projectType"]::after,
+.form-group label[for="message"]::after {
+    content: ' *';
+    color: #ef4444;
+    font-weight: 700;
+}
+
 .form-group input,
 .form-group select,
 .form-group textarea {
