@@ -607,47 +607,57 @@
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="firstName">First Name</label>
-                                <input type="text" id="firstName" name="First Name" required>
+                                <input type="text" id="firstName" name="first_name" required>
                             </div>
                             <div class="form-group">
                                 <label for="lastName">Last Name</label>
-                                <input type="text" id="lastName" name="Last Name" required>
+                                <input type="text" id="lastName" name="last_name" required>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="email">Email Address</label>
-                            <input type="email" id="email" name="Email" required>
+                            <input type="email" id="email" name="_replyto" required>
                         </div>
 
                         <div class="form-group">
                             <label for="company">Company/Organization</label>
-                            <input type="text" id="company" name="Company" required>
+                            <input type="text" id="company" name="company" placeholder="Optional">
                         </div>
 
                         <div class="form-group">
                             <label for="projectType">Project Type</label>
-                            <select id="projectType" name="Project Type" required>
+                            <select id="projectType" name="project_type" required>
                                 <option value="">Select a project type</option>
-                                <option value="web-development">Web Development</option>
-                                <option value="mobile-app">Mobile Application</option>
-                                <option value="ui-ux-design">UI/UX Design</option>
-                                <option value="digital-marketing">Digital Marketing</option>
-                                <option value="consultation">Consultation</option>
-                                <option value="other">Other</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Mobile Application">Mobile Application</option>
+                                <option value="UI/UX Design">UI/UX Design</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Consultation">Consultation</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
 
                         <div class="form-group">
                             <label for="message">Project Description</label>
-                            <textarea id="message" name="Project Description"
+                            <textarea id="message" name="project_description"
                                 placeholder="Tell me about your project, goals, and any specific requirements..."
                                 required></textarea>
                         </div>
 
                         <!-- Hidden fields for better email formatting -->
-                        <input type="hidden" name="_subject" value="New Contact Form Submission from Portfolio">
+                        <input type="hidden" name="_subject" value="🚀 New Project Inquiry from Portfolio Website">
+                        <input type="hidden" name="_template" value="table">
                         <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_cc" value="jasonreymanlangit@gmail.com">
+                        <input type="hidden" name="_format" value="plain">
+
+                        <!-- Custom email template fields -->
+                        <input type="hidden" name="_autoresponse"
+                            value="Thank you for your message! I'll get back to you within 24 hours. - Jason">
+                        <input type="hidden" name="form_name" value="Portfolio Contact Form">
+                        <input type="hidden" name="website" value="Jason's Portfolio">
+                        <input type="hidden" name="priority" value="High">
 
                         <button type="submit" class="btn primary submit-btn">
                             <div class="loading-spinner"></div>
