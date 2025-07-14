@@ -895,6 +895,26 @@
                 this.style.borderColor = 'var(--primary-color)';
             });
         });
+
+        // Auto-capitalize first name and last name fields
+        function capitalizeWords(str) {
+            return str.replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        const firstNameInput = document.getElementById('firstName');
+        const lastNameInput = document.getElementById('lastName');
+
+        firstNameInput.addEventListener('input', function () {
+            const cursorPosition = this.selectionStart;
+            this.value = capitalizeWords(this.value);
+            this.setSelectionRange(cursorPosition, cursorPosition);
+        });
+
+        lastNameInput.addEventListener('input', function () {
+            const cursorPosition = this.selectionStart;
+            this.value = capitalizeWords(this.value);
+            this.setSelectionRange(cursorPosition, cursorPosition);
+        });
     </script>
 
 </body>
