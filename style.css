@@ -1339,13 +1339,16 @@ nav ul li a.active::after {
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
+    width: 100%;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    min-width: 0;
+    /* Prevents overflow */
 }
 
 .form-group label {
@@ -1472,7 +1475,7 @@ nav ul li a.active::after {
     }
 
     .contact-form-wrapper {
-        padding: 2rem;
+        padding: 2rem 1.5rem;
     }
 
     .form-row {
