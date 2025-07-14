@@ -594,6 +594,48 @@ nav ul li a.active::after {
         padding: 0.5rem 1rem;
         font-size: 0.8rem;
     }
+
+    /* Contact Section for Very Small Screens */
+    .contact {
+        padding: 3rem 0;
+    }
+
+    .contact-content {
+        gap: 2rem;
+    }
+
+    .contact-intro,
+    .contact-social,
+    .contact-form-wrapper {
+        padding: 1rem;
+    }
+
+    .contact-item {
+        padding: 1rem;
+        gap: 0.8rem;
+    }
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .contact-form-wrapper h3 {
+        font-size: 1.3rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .submit-btn {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
 }
 
 /* Container */
@@ -1242,6 +1284,8 @@ nav ul li a.active::after {
     color: var(--text-secondary);
     line-height: 1.5;
     margin-bottom: 0.3rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .contact-details a {
@@ -1249,6 +1293,8 @@ nav ul li a.active::after {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .contact-details a:hover {
@@ -1349,6 +1395,8 @@ nav ul li a.active::after {
     gap: 0.5rem;
     min-width: 0;
     /* Prevents overflow */
+    width: 100%;
+    max-width: 100%;
 }
 
 .form-group label {
@@ -1383,6 +1431,9 @@ nav ul li a.active::after {
     transition: all 0.3s ease;
     background: white;
     color: var(--text-primary);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .form-group input:focus,
@@ -1597,5 +1648,53 @@ nav ul li a.active::after {
     .filter-btn {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
+    }
+
+    /* Contact Section Mobile Styles */
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .contact-info {
+        gap: 1.5rem;
+    }
+
+    .contact-intro {
+        padding: 1.5rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    .contact-icon {
+        align-self: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-social {
+        padding: 1.5rem;
+    }
+
+    .contact-social .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-form-wrapper {
+        padding: 2rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .contact-form-wrapper h3 {
+        font-size: 1.5rem;
     }
 }
