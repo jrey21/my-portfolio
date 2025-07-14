@@ -1666,14 +1666,18 @@ nav ul li a.active::after {
 
     .contact-item {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         gap: 1rem;
         padding: 1.5rem;
     }
 
     .contact-icon {
-        align-self: center;
         margin-bottom: 0.5rem;
+    }
+
+    .contact-details {
+        text-align: center;
+        width: 100%;
     }
 
     .contact-social {
@@ -1698,21 +1702,13 @@ nav ul li a.active::after {
         font-size: 1.5rem;
     }
 
-    /* Center align all contact text elements in mobile */
+    /* Center align contact section headers in mobile */
     .contact-intro h3 {
         text-align: center;
     }
 
     .contact-intro p {
         text-align: center;
-    }
-
-    .contact-details h4,
-    .contact-details p,
-    .contact-note {
-        text-align: center;
-        margin-left: 25%;
-        background-color: red;
     }
 
     .contact-social h4 {
